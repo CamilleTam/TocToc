@@ -20,6 +20,7 @@
 				$userinfo = $requser->fetch();
 				$_SESSION['id'] = $userinfo['id'];
 				$_SESSION['pseudo'] = $userinfo['pseudo'];
+				$_SESSION['connected'] = true;
 				
 				header("Location: profil.php?id=" . $_SESSION['id']);
 			}

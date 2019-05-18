@@ -28,6 +28,7 @@
 			</br></br>
 			Mail : <?php echo $userinfo['mail']; ?>
 			<?php if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) { ?>
+			<br/><a href="annonce_form.php">Poster une annonce<a/>
 			<br/><a href="#">Editer mon profil<a/>
 			<br/><a href="deconnexion.php">Se déconnecter<a/>
 			<?php } ?>

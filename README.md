@@ -15,8 +15,8 @@ Tech :
 - messages personnels entre membres
 - liste des membres
 - meilleur édition de profil (sexe, date de naissance, ville, pays)
-- produit : ville, région, pays, 3 images maximum, description du produit (255 caracteres)
-TODO futur : panel admin afficher les annonces publiées et celles en attente de publication (l'admin doit confirmer)
+- produit : 3 images maximum
+- panel admin afficher les annonces publiées et celles en attente de publication (l'admin doit confirmer)
 
 Design :
 - menus déroulants

@@ -6,10 +6,9 @@ Tech :
 - avatar image
 - edition de profil
 - formulaire de contact
-- poster une annonce, voir les annonces
-- pouvoir "enregistrer une annonce" et "publier une annonce"
+- pouvoir "enregistrer une annonce comme brouillon" et "publier une annonce"
 - pouvoir "reporter une annonce"
-- pouvoir dsactiver son compte (les annonces ne serront plus visibles alors)
+- pouvoir désactiver son compte (les annonces ne serront plus visibles alors)
 - pouvoir supprimer son compte (idem)
 - un admin pourra supprimer user ou supprimer annonces (les "publiées" uniquement) via un panel admin
 - ajouter un forum pourquoi pas

@@ -3,9 +3,6 @@ Projet Transverse 2019
 
 # TODO
 Tech :
-- avatar image
-- edition de profil
-- formulaire de contact
 - pouvoir "enregistrer une annonce comme brouillon" et "publier une annonce"
 - pouvoir "reporter une annonce"
 - pouvoir désactiver son compte (les annonces ne serront plus visibles alors)

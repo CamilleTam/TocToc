@@ -15,6 +15,15 @@
 		$requser = $bdd->prepare("SELECT * FROM MEMBRES WHERE ID=?");
 		$requser->execute(array($userinfo['id_membre']));
 		$userposter = $requser->fetch();
+		
+		if($userposter['avatar'] == null)
+		{
+			$image = 'no_avatar.png';
+		}
+		else
+		{
+			$image = $userposter['avatar'];
+		}
 	}
 	else
 	{
@@ -29,10 +38,15 @@
 	</head>
 	
 	<body>
+		<a href="index.php">accueil</a>
 		<div align="center">
 			<h2><?php echo $userinfo['titre']; ?></h2>
 			</br></br>
 			<h3>Postée par : <?php echo $userposter['pseudo']; ?></h3>
+			<?php
+			echo '<img src="avatars/' . $image . '" alt="Avatar" width="100" height="100"> </br></br>';
+			?>
+			<h4>Lieu : <?php echo $userinfo['ville'] . ', ' . $userinfo['region'] . ', ' . $userinfo['pays']; ?></h4>
 			Description : <?php echo $userinfo['texte']; ?>
 		</div>
 		</br></br>
@@ -54,7 +68,7 @@
 			$username->execute(array($ligne['id_membre']));
 			$user = $username->fetch();
 			
-			echo '<p>De : ' .$user['pseudo'] . '</br>' . $ligne['texte'] . '</p>';
+			echo '<p>De : ' .$user['pseudo'] . '</p>';
 		}
 		?>
 		</br></br>

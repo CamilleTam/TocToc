@@ -82,7 +82,7 @@
 	</head>
 	
 	<body>
-		<script src="insc.js"></script>
+		<a href="index.php">accueil</a>
 		<div align="center">
 			<h2>Inscription</h2>
 			<br/><br/>

@@ -84,6 +84,7 @@ CREATE TABLE IF NOT EXISTS `membres` (
   `pseudo` varchar(255) NOT NULL,
   `mail` varchar(255) NOT NULL,
   `motdepasse` text NOT NULL,
+  `avatar` varchar(255),
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
